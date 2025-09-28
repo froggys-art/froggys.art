@@ -1,0 +1,28 @@
+{
+  "id": "63ffa28becf1988e890a09a64dc790360364b5c51298527d036a774b2071e4a6i0",
+  "meta": {
+    "name": "Bitcoin Frog #9000",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Karate Outfit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bitcoin Pizza"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

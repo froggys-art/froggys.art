@@ -1,0 +1,28 @@
+{
+  "id": "cf1b2b0db9ccb28f180d7760bd3c9d6336b4a65d712875d9fe9ef2ef0211d055i0",
+  "meta": {
+    "name": "Bitcoin Frog #3013",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Karate Outfit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

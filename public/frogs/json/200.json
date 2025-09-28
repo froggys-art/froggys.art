@@ -1,0 +1,28 @@
+{
+  "id": "8a3bcfbcaeb38224e9842660832e8e4dd012bf8e7c911bf0d3e17f1361a92f7ci0",
+  "meta": {
+    "name": "Bitcoin Frog #200",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

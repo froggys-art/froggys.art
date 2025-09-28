@@ -1,0 +1,28 @@
+{
+  "id": "7cc724caba6e276cf3d45aaa215784c63a2b05f054cefe2840dd93f8db80d704i0",
+  "meta": {
+    "name": "Bitcoin Frog #9330",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

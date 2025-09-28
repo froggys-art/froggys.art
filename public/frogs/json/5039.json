@@ -1,0 +1,28 @@
+{
+  "id": "66a01f6dd4df92239d2bbd0ea15f87fc370da26146cc7a44f1054d4e8409b269i0",
+  "meta": {
+    "name": "Bitcoin Frog #5039",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Black Vest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

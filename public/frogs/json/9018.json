@@ -1,0 +1,28 @@
+{
+  "id": "cc1b5f797e04f543c6c14e5f0e44c5118cdbf95f55b0b0608c0162bb2cac55fbi0",
+  "meta": {
+    "name": "Bitcoin Frog #9018",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Gentlemans Suit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

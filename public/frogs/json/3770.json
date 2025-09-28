@@ -1,0 +1,28 @@
+{
+  "id": "c1dadff92bc9f6e693c5504e0ce653d6003baeffdf4ec1215211aea122d267eci0",
+  "meta": {
+    "name": "Bitcoin Frog #3770",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

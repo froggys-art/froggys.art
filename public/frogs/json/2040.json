@@ -1,0 +1,28 @@
+{
+  "id": "e2d068e6282e6bbefdad7cc0ca83b930b265a5a789d0042bdd1d2a916d24a2eei0",
+  "meta": {
+    "name": "Bitcoin Frog #2040",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

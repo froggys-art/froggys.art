@@ -1,0 +1,28 @@
+{
+  "id": "9aec45684a3ef8050a5327e4912c85ee1623d4701b46a5e45fa902b4c2b313c2i0",
+  "meta": {
+    "name": "Bitcoin Frog #8725",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Bowtie"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

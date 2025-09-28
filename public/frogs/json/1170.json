@@ -1,0 +1,28 @@
+{
+  "id": "b25a1c1f483708655fe6801e6f54b2b3ca75a549b3b74d5220bcc9b9426fa84ei0",
+  "meta": {
+    "name": "Bitcoin Frog #1170",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Spartan"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

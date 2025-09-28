@@ -1,0 +1,28 @@
+{
+  "id": "f3169bc7d1b0589e6f8d7e12eacd88dd10b0d8de8414beb41cadb0d0db0a50a8i0",
+  "meta": {
+    "name": "Bitcoin Frog #3419",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Bitcoin Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Red Overalls"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  }
+}

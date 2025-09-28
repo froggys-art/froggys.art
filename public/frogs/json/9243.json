@@ -1,0 +1,28 @@
+{
+  "id": "bf306a2b45b1d21931b50d86f93b5e03508742c98bce62cd9744eb981fa3fd33i0",
+  "meta": {
+    "name": "Bitcoin Frog #9243",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "23 TShirt"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

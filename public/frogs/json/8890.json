@@ -1,0 +1,28 @@
+{
+  "id": "46506572f27f277b0d13d9d5e2a2134a77f3f455d5a6eaaeb61e0c3c8ecd338fi0",
+  "meta": {
+    "name": "Bitcoin Frog #8890",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Red Overalls"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

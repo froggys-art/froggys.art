@@ -1,0 +1,28 @@
+{
+  "id": "21dd6580089b82c99dd1908922cb70ab2cada0ed8896febbe8dca836047518c2i0",
+  "meta": {
+    "name": "Bitcoin Frog #1905",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Businessman"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

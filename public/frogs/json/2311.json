@@ -1,0 +1,28 @@
+{
+  "id": "b6fb8764e572f1b94bae50f74e0ae2c3551ba8be54c2ab44738240f14f27e8d3i0",
+  "meta": {
+    "name": "Bitcoin Frog #2311",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

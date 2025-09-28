@@ -1,0 +1,28 @@
+{
+  "id": "16af26bbd9a3d4ce0800bcbf16bc77bfa65d63f26e9565d89859dbf07bce2ee7i0",
+  "meta": {
+    "name": "Bitcoin Frog #7330",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Wizard Robe"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bitcoin Pizza"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

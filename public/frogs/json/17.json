@@ -1,0 +1,28 @@
+{
+  "id": "7f76ef9c2c6179ead42dd06f398f70753bbd34d07f5892fd6bd369f5afad56cbi0",
+  "meta": {
+    "name": "Bitcoin Frog #17",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Dust Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

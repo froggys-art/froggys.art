@@ -1,0 +1,28 @@
+{
+  "id": "2dd21a40ebb2ada8906c407d70fd9bd782cbe918c9f9530142ac0ba78c6b4bb0i0",
+  "meta": {
+    "name": "Bitcoin Frog #4233",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Spartan"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

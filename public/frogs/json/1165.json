@@ -1,0 +1,28 @@
+{
+  "id": "b3d73c1e74b94cd93d571f4ca8a3011a8da5134fcac26962955f354ca2c614d2i0",
+  "meta": {
+    "name": "Bitcoin Frog #1165",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Vest and Shirt"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

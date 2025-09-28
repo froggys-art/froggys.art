@@ -1,0 +1,28 @@
+{
+  "id": "5389a15684d019565852065e9f543b0b4deafba32b8d4a9c4435c724b65a8bf4i0",
+  "meta": {
+    "name": "Bitcoin Frog #2009",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Karate Outfit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Cigar"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

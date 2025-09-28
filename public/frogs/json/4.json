@@ -1,0 +1,28 @@
+{
+  "id": "ebe961f34d2ccf9d08b478db174a990beff3ad0ced56527168f25cd9ef4ad605i0",
+  "meta": {
+    "name": "Bitcoin Frog #4",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Cigar"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

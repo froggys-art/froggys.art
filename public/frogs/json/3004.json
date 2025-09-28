@@ -1,0 +1,28 @@
+{
+  "id": "ecc5e605da19b24a8771840678d9a9c3289da51214111e56a63245ff11f1b1c3i0",
+  "meta": {
+    "name": "Bitcoin Frog #3004",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Black Vest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

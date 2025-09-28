@@ -1,0 +1,54 @@
+{
+  "name": "bitcoinfrogs-art",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "gen:thumbs": "node scripts/generate-thumbs.mjs",
+    "gen:frogs-json": "node scripts/split-inscriptions.mjs",
+    "copy:bg": "node scripts/copy-by-background.mjs"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.4.0",
+    "@noble/secp256k1": "^2.0.0",
+    "bech32": "^2.0.0",
+    "better-sqlite3": "^9.6.0",
+    "bip322-js": "^3.0.0",
+    "bitcoinjs-lib": "^6.1.6",
+    "bitcoinjs-message": "^2.2.0",
+    "date-fns": "^3.6.0",
+    "drizzle-orm": "^0.44.5",
+    "next": "14.2.5",
+    "pg": "^8.11.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sats-connect": "^3.6.1",
+    "@sats-connect/core": "^0.6.6",
+    "sharp": "^0.33.5",
+    "undici": "^6.19.8",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.23",
+    "autoprefixer": "^10.4.20",
+    "drizzle-kit": "^0.31.5",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "husky": "^9.0.11",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

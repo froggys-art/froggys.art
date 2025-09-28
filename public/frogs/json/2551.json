@@ -1,0 +1,28 @@
+{
+  "id": "719695f6de2e650e48f68a02e2fcb9cc3ef32e87c1d463149933eec75d13bc41i0",
+  "meta": {
+    "name": "Bitcoin Frog #2551",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

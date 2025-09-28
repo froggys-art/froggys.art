@@ -1,0 +1,28 @@
+{
+  "id": "a66504c2fb3c179d3e65938314f94bbba3a7be6af05b0e768c29cc5f6bb849b5i0",
+  "meta": {
+    "name": "Bitcoin Frog #8505",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  }
+}

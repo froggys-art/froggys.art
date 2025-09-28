@@ -1,0 +1,28 @@
+{
+  "id": "dd5b8d5e47653b87c3218f4a7b101c30a3e35d8df28284f0e4380fe9e4ff6c74i0",
+  "meta": {
+    "name": "Bitcoin Frog #1883",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "93bfa79be8f39cfd944405c1a9f86a9e979c73488ce07d88b5a59114366ffe7fi0",
+  "meta": {
+    "name": "Bitcoin Frog #1911",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Spartan"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

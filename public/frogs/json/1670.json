@@ -1,0 +1,28 @@
+{
+  "id": "c60a4c0b28a0c99288a4a6c0a9c3d95beefcfbdc12ce186faa6b8fd02e61c3cei0",
+  "meta": {
+    "name": "Bitcoin Frog #1670",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  }
+}

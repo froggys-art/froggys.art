@@ -1,0 +1,28 @@
+{
+  "id": "82b4687b52fa2ed0be5ad511139daf3b526eae21ec838cd596da96e720ffaf1bi0",
+  "meta": {
+    "name": "Bitcoin Frog #2220",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

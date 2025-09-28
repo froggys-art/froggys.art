@@ -1,0 +1,28 @@
+{
+  "id": "c36be8b9b63aa4467d6c8e50e1cf63cb44d9ed60ce6f418aeb1def0da764f3efi0",
+  "meta": {
+    "name": "Bitcoin Frog #59",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Gentlemans Suit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "289d913dcb162ca308f48dbda7f385dcb7fe735df9037555ed87f92d6db6a373i0",
+  "meta": {
+    "name": "Bitcoin Frog #9598",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4d750b1576f2b15cab43211614ea0360f5c023636b1fb008da4aca0d4792dc3bi0",
+  "meta": {
+    "name": "Bitcoin Frog #6850",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f9b6755891cca18a35998d8f2a62af5cabe8f4950dd8832921eb5b80a05cb1aci0",
+  "meta": {
+    "name": "Bitcoin Frog #1970",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Cigar"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

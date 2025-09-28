@@ -1,0 +1,28 @@
+{
+  "id": "a4689afb5138b35f3d0a301d4e80ce65db66220093f1ae1a02cc331d753bbfd9i0",
+  "meta": {
+    "name": "Bitcoin Frog #7456",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Gentlemans Suit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "166e4405b3d728ef1f02acc0232cff603af2528fa879cd7b9fe85d3e9f592e88i0",
+  "meta": {
+    "name": "Bitcoin Frog #1506",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Ninja"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

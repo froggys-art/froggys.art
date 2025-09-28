@@ -1,0 +1,28 @@
+{
+  "id": "df0050c2246bded8be0f4a26bd850fb5d843a5e32dbc5fd5052a15138f3e0544i0",
+  "meta": {
+    "name": "Bitcoin Frog #1872",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Karate Outfit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  }
+}

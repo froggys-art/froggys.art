@@ -1,0 +1,28 @@
+{
+  "id": "a356291afc40fa6a4096cd5a6e19f7a1d1a90b762ca96f9a7d99933000803bfbi0",
+  "meta": {
+    "name": "Bitcoin Frog #1120",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Karate Outfit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "none"
+      }
+    ]
+  }
+}

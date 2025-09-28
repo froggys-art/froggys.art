@@ -1,0 +1,28 @@
+{
+  "id": "b143207cf084310af7f798376427fe21d1bcd1e65f869ba53da4087db21f85e6i0",
+  "meta": {
+    "name": "Bitcoin Frog #2003",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

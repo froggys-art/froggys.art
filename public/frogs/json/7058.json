@@ -1,0 +1,28 @@
+{
+  "id": "a7ba62e1c9ae7e1311c883db9a6cedbd1a3f2f19dad0dca5426cebb3715db6b9i0",
+  "meta": {
+    "name": "Bitcoin Frog #7058",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Fur Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

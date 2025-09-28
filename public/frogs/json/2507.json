@@ -1,0 +1,28 @@
+{
+  "id": "a6bb492066729ae9ae6cd7a4b5c208ab261661210ee7d58784e78972349a2006i0",
+  "meta": {
+    "name": "Bitcoin Frog #2507",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

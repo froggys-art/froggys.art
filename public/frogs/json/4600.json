@@ -1,0 +1,28 @@
+{
+  "id": "b77d6b40d7d0527e222e784dd1794c98c24e405bcef1bc5db86772654e73f1efi0",
+  "meta": {
+    "name": "Bitcoin Frog #4600",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Gentlemans Suit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

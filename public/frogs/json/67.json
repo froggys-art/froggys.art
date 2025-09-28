@@ -1,0 +1,28 @@
+{
+  "id": "99da2e6f387e1a46913ae2744ab8e977849a7ae8005a48643149f7ddaec581d1i0",
+  "meta": {
+    "name": "Bitcoin Frog #67",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

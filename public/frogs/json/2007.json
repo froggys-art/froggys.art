@@ -1,0 +1,28 @@
+{
+  "id": "84aba88783b6484da7b027b2f8e00f33e7c19a322f91d06f7d72b92a5d9c88c5i0",
+  "meta": {
+    "name": "Bitcoin Frog #2007",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Green Hoodie"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

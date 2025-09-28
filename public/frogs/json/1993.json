@@ -1,0 +1,28 @@
+{
+  "id": "bef5b2466cc7290b52ad464f5de9738915e959f6a660baf651c54cf6146d010fi0",
+  "meta": {
+    "name": "Bitcoin Frog #1993",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Jacket"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "053c53b7e5271446b56828e77c10a239859cf8f40e0aa75e9f7cae3f0cc198dei0",
+  "meta": {
+    "name": "Bitcoin Frog #2373",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Karate Outfit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

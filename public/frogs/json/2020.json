@@ -1,0 +1,28 @@
+{
+  "id": "d97ff3282ed498a307cb1a1a1501a1241d87b69cb327d94e196f598a699f43bci0",
+  "meta": {
+    "name": "Bitcoin Frog #2020",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Orange Checkered"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Powerful"
+      }
+    ]
+  }
+}

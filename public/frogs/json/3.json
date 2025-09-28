@@ -1,0 +1,28 @@
+{
+  "id": "79e4567ff1ef86d80a3156393fa730c00a56d3d70548029aa82d3d8b63a87a81i0",
+  "meta": {
+    "name": "Bitcoin Frog #3",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1af11fe528b2f42cfb394f97adc00c1d50c54638a670967a89767bb67f3e870fi0",
+  "meta": {
+    "name": "Bitcoin Frog #107",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

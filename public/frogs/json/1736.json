@@ -1,0 +1,28 @@
+{
+  "id": "2f4536d8ed563d5692cd5bb110cd046bc83e38bc02944e67e3c3e0324d5f78dei0",
+  "meta": {
+    "name": "Bitcoin Frog #1736",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Frown"
+      }
+    ]
+  }
+}

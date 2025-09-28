@@ -1,0 +1,28 @@
+{
+  "id": "044ea305cad7cf9a0edd084b50f9a1a2efac4f51f3d8ecf7c66344d79aca1e5di0",
+  "meta": {
+    "name": "Bitcoin Frog #8429",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

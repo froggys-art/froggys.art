@@ -1,0 +1,28 @@
+{
+  "id": "b834ac8dca93b6e312e8578934bd5989e5ac7965169cce26fce78f51c1c87130i0",
+  "meta": {
+    "name": "Bitcoin Frog #6069",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Bitcoin Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Gentlemans Suit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

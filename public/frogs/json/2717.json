@@ -1,0 +1,28 @@
+{
+  "id": "1dbf08c5cb15c1a5d31d3cfe06b42f51616ed1eba6a4090ac3e5c675384b3aabi0",
+  "meta": {
+    "name": "Bitcoin Frog #2717",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

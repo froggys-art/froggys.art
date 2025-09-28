@@ -1,0 +1,28 @@
+{
+  "id": "743fd9bf61b1a0958f585a3e5762d182daab942074b05a5a3df414eff052c1dbi0",
+  "meta": {
+    "name": "Bitcoin Frog #1620",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

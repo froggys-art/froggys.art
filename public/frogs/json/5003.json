@@ -1,0 +1,28 @@
+{
+  "id": "71dbaeba4e499bb4722dae30090f4246f3c63dfc655abee7a8f2289272920dfai0",
+  "meta": {
+    "name": "Bitcoin Frog #5003",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Bitcoin Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

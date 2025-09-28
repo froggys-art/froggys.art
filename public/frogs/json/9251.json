@@ -1,0 +1,28 @@
+{
+  "id": "b07a5ad2bd5ff3c7f7be2cd3ba4429360db4a99b8a5b67778c90c7813a08300fi0",
+  "meta": {
+    "name": "Bitcoin Frog #9251",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

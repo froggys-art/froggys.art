@@ -1,0 +1,28 @@
+{
+  "id": "ef6b1ec5fbf6eeaa4cdbf738fe2af7c0cfc60b363f04d31ed3f2b13145909d5di0",
+  "meta": {
+    "name": "Bitcoin Frog #1988",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

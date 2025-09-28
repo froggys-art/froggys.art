@@ -1,0 +1,28 @@
+{
+  "id": "c19916e7eec2a36d6d5fea81c4f1bcc642eb73a0b8dc9726eeaf2d19fd5ae1f7i0",
+  "meta": {
+    "name": "Bitcoin Frog #4192",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

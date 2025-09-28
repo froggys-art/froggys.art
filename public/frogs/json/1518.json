@@ -1,0 +1,28 @@
+{
+  "id": "f8bb55f0eec02762edd242e0d87058bfec1f8bcc9ebf4ff0067a6ed9fc426200i0",
+  "meta": {
+    "name": "Bitcoin Frog #1518",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Dust Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Cigar"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Local fonts */
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('/fonts/PressStart2P.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EightBitWonder';
+  src: url('/fonts/8-BIT WONDER.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #0b0f12;
+  --fg: #e6f0ff;
+  --muted: #9fb0c0;
+  --accent: #32dba6;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.font-press {
+  font-family: 'PressStart2P', ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", monospace;
+}
+
+.font-8bit {
+  font-family: 'EightBitWonder', ui-monospace, Menlo, Monaco, monospace;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.btn {
+  @apply inline-flex items-center rounded-md bg-emerald-500 px-4 py-2 text-sm font-medium text-white shadow hover:bg-emerald-600 disabled:opacity-50;
+}
+
+.input {
+  @apply w-full rounded-md bg-slate-800/70 border border-slate-700 px-3 py-2 text-sm text-slate-100 placeholder-slate-400 outline-none focus:ring-2 focus:ring-emerald-400/50;
+}
+
+.card {
+  @apply rounded-xl border border-slate-800 bg-slate-900/40 p-4 shadow;
+}
+
+/* Custom scrollbar for in-panel scrolling that blends with orange theme */
+.scroll-blend {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #111 #f6a23e; /* thumb, track */
+  scrollbar-gutter: stable both-edges;
+}
+.scroll-blend::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll-blend::-webkit-scrollbar-track {
+  background: #f6a23e; /* slightly lighter than #f6931a */
+}
+.scroll-blend::-webkit-scrollbar-thumb {
+  background: #111;
+  border-radius: 0; /* blocky/pixel style */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.scroll-blend::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}

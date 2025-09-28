@@ -1,0 +1,28 @@
+{
+  "id": "da6effa64a97480bd3e0c110985e8f9979191ed9e06b8fd49372f7e9919b5d94i0",
+  "meta": {
+    "name": "Bitcoin Frog #4119",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

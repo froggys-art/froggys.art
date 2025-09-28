@@ -1,0 +1,28 @@
+{
+  "id": "8339c7d1a903543f68cb2bd904bc60e840cb84eec9ef8a9c4c35a688b555ce42i0",
+  "meta": {
+    "name": "Bitcoin Frog #1417",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Frown"
+      }
+    ]
+  }
+}

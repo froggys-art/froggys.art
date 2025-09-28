@@ -1,0 +1,28 @@
+{
+  "id": "1e29967e9755ee919d1310d2e4237a8c502fa988e4b71cb0e1d6b1d24ba773e9i0",
+  "meta": {
+    "name": "Bitcoin Frog #2012",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Blue Jacket"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "none"
+      }
+    ]
+  }
+}

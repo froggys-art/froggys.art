@@ -1,0 +1,28 @@
+{
+  "id": "8d0001160c516b7112a93664a95f200ccd14aa1db29a1225de2bbb58f5c5a33ai0",
+  "meta": {
+    "name": "Bitcoin Frog #6546",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Gentlemans Suit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

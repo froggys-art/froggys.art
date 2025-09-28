@@ -1,0 +1,28 @@
+{
+  "id": "6e119ffbedfd6117cb6b3a8cbfcd625e23b24fd026da99bd0d5ea07190e477e9i0",
+  "meta": {
+    "name": "Bitcoin Frog #6208",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  }
+}

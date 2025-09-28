@@ -1,0 +1,28 @@
+{
+  "id": "6685ce7e3837855aa4edfc05fcb0c70d0c18d2bf8a65c6a4ccd4b40cb3780309i0",
+  "meta": {
+    "name": "Bitcoin Frog #4321",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Purple Checkered"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Cigar"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

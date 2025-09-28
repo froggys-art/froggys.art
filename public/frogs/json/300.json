@@ -1,0 +1,28 @@
+{
+  "id": "300b520bddad3e4e0301cc37a744fa100d6127ad12cb932ff8e1df5916f91744i0",
+  "meta": {
+    "name": "Bitcoin Frog #300",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Red Hoodie"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bitcoin Pizza"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

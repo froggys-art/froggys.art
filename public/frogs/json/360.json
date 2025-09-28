@@ -1,0 +1,28 @@
+{
+  "id": "f4486bdfa1fc7648b3e41b6b46d51e3ee14256010e03f35702be90e2b226f7d9i0",
+  "meta": {
+    "name": "Bitcoin Frog #360",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Bitcoin Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Bitcoin Shirt"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

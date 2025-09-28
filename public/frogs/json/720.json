@@ -1,0 +1,28 @@
+{
+  "id": "e37c76783a60e96b0a4b7ca1fa987e7da9f3ae2348390d42d6ca51aee4698bd1i0",
+  "meta": {
+    "name": "Bitcoin Frog #720",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "none"
+      }
+    ]
+  }
+}

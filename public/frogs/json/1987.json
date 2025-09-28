@@ -1,0 +1,28 @@
+{
+  "id": "4b887e55fee5ebfedac59c424b655d78d3be1b3e3083efbdeda28f7238328296i0",
+  "meta": {
+    "name": "Bitcoin Frog #1987",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Hitman"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

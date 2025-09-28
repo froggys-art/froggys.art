@@ -1,0 +1,28 @@
+{
+  "id": "e36ec30f86a5178d78a206c12756a74b4db8545b834d1db8b89b419eec6fa046i0",
+  "meta": {
+    "name": "Bitcoin Frog #2840",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Bitcoin Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

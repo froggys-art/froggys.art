@@ -1,0 +1,28 @@
+{
+  "id": "82f870096764ce408b1a9011ee22285024300bbe2f704d3ecff800518b09c2d0i0",
+  "meta": {
+    "name": "Bitcoin Frog #7985",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

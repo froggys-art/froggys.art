@@ -1,0 +1,28 @@
+{
+  "id": "839807e305a5e53412ccb6cb1d518e1aac73ee1a3bc6509b6f77b6d1ca58d718i0",
+  "meta": {
+    "name": "Bitcoin Frog #458",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

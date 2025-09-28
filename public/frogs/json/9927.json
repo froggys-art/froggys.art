@@ -1,0 +1,28 @@
+{
+  "id": "c633be5aafe2d71a86f47d0fddba84d961c33dee9541ba9a4e5f748984601a43i0",
+  "meta": {
+    "name": "Bitcoin Frog #9927",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

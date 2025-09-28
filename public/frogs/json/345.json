@@ -1,0 +1,28 @@
+{
+  "id": "18ed10fed8f776f81fe658136f1f856305947919d0ffe443e1489e3b9809c8adi0",
+  "meta": {
+    "name": "Bitcoin Frog #345",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Blue Jacket"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

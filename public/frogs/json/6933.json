@@ -1,0 +1,28 @@
+{
+  "id": "53d66579b06b8c2157a20fef79d9289c7009a85cee84a7bc6c2e36889eceee62i0",
+  "meta": {
+    "name": "Bitcoin Frog #6933",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bitcoin Pizza"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cb95235e96f1ec501da76ee72dd0d5967720a28810c0d6a928cb9d0815f7f988i0",
+  "meta": {
+    "name": "Bitcoin Frog #9944",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

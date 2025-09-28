@@ -1,0 +1,28 @@
+{
+  "id": "b5b6e6ddfe2dfd40ce4a1288e9c7160be8b8fd425b5899fbff597176fc6275f7i0",
+  "meta": {
+    "name": "Bitcoin Frog #4732",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Wizard Robe"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

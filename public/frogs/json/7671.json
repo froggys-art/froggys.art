@@ -1,0 +1,28 @@
+{
+  "id": "3a1d5512dbb9973b83d038f09088ba13cd4c28b4191a3e7a05af68827f1bbd9fi0",
+  "meta": {
+    "name": "Bitcoin Frog #7671",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Green Hoodie"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bitcoin Pizza"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

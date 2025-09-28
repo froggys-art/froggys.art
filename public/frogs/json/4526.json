@@ -1,0 +1,28 @@
+{
+  "id": "eabef883be01ea3678f70022137752859b70a5a15fb3be95cfec0ffef8cd7fcbi0",
+  "meta": {
+    "name": "Bitcoin Frog #4526",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

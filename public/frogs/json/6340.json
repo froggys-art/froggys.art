@@ -1,0 +1,28 @@
+{
+  "id": "c8c94a1b611f590f3e0b2e20f1c78789472aeac181bae095a76b518d5a86d7e4i0",
+  "meta": {
+    "name": "Bitcoin Frog #6340",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Wizard Robe"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

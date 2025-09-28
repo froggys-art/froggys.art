@@ -1,0 +1,28 @@
+{
+  "id": "deada62177cf84e433a2c56bc11f2f402f24f9090b0776976059c37cb8ef298ci0",
+  "meta": {
+    "name": "Bitcoin Frog #8072",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

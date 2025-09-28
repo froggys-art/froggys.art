@@ -1,0 +1,28 @@
+{
+  "id": "3406fff289bf582af3e125d63846c98c6851c95bbbf6da1eb6eee1afb57c7288i0",
+  "meta": {
+    "name": "Bitcoin Frog #2019",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "23 TShirt"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bitcoin Pizza"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

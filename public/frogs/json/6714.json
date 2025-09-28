@@ -1,0 +1,28 @@
+{
+  "id": "8ca9bdee90623e2ffa7408d9cc2ffd5610cce2841aff0129899e138075d5c940i0",
+  "meta": {
+    "name": "Bitcoin Frog #6714",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

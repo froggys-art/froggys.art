@@ -1,0 +1,28 @@
+{
+  "id": "6efa1ac2bd7e888dfc6138d58b241334af5ad35e726e80141338061e5c87e3f1i0",
+  "meta": {
+    "name": "Bitcoin Frog #8038",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Gentlemans Suit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Powerful"
+      }
+    ]
+  }
+}

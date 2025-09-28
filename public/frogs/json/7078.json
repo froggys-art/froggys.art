@@ -1,0 +1,28 @@
+{
+  "id": "76900eefe6fa92c166a26b38d5f9484f83d4a9dacd2e6d5793359b9c9c07aaa9i0",
+  "meta": {
+    "name": "Bitcoin Frog #7078",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

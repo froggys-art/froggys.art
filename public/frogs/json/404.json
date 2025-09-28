@@ -1,0 +1,28 @@
+{
+  "id": "8a8bcd94f48f9b073a4dc6e6def722d5567b182ae2e338e0848f4f42c975e178i0",
+  "meta": {
+    "name": "Bitcoin Frog #404",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Blue Hoodie"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

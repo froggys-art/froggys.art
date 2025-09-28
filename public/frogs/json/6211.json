@@ -1,0 +1,28 @@
+{
+  "id": "110e4cee0a89dc0a0a314038e84d07a1c76cbf4dcb4f2be9a9fc383c7f81b433i0",
+  "meta": {
+    "name": "Bitcoin Frog #6211",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Businessman"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Frown"
+      }
+    ]
+  }
+}

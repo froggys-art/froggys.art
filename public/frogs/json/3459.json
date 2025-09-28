@@ -1,0 +1,28 @@
+{
+  "id": "89f499b6e0c7b743bf3170055f994129749d754805d328b1cd695b1f801b50b1i0",
+  "meta": {
+    "name": "Bitcoin Frog #3459",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Tron"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Fur Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

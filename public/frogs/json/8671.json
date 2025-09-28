@@ -1,0 +1,28 @@
+{
+  "id": "e502c03142b50c626edeafa697b09e8fa7c32a4fb16680b5b37ac3c270ff4759i0",
+  "meta": {
+    "name": "Bitcoin Frog #8671",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  }
+}

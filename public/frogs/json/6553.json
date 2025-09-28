@@ -1,0 +1,28 @@
+{
+  "id": "70e5df2a708d6c7269778b35ffe1887561ebce2ed4a38ae8deded87071254935i0",
+  "meta": {
+    "name": "Bitcoin Frog #6553",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Frown"
+      }
+    ]
+  }
+}

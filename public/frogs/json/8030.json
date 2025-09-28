@@ -1,0 +1,28 @@
+{
+  "id": "36d19c4e019589a77f3138a373387044f0db6f8dd21c8e38499c7c145c41b1c7i0",
+  "meta": {
+    "name": "Bitcoin Frog #8030",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Purple Checkered"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "none"
+      }
+    ]
+  }
+}

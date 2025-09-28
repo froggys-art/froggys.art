@@ -1,0 +1,28 @@
+{
+  "id": "3c60a805b1602f3f1956eed6cb6d7a1db02dea2b560e91738c156a9f02debe38i0",
+  "meta": {
+    "name": "Bitcoin Frog #2671",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

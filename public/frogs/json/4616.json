@@ -1,0 +1,28 @@
+{
+  "id": "c4a3e39826013cfffe84dc107dcc177bf6ed374975ce18b7c18ce2b32b02e3bfi0",
+  "meta": {
+    "name": "Bitcoin Frog #4616",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Frown"
+      }
+    ]
+  }
+}

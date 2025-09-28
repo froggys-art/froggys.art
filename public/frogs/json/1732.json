@@ -1,0 +1,28 @@
+{
+  "id": "2f888e5c36dec878af8d2e0658ba980edc7b8824fd6c8bc5b453336cc69ea616i0",
+  "meta": {
+    "name": "Bitcoin Frog #1732",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Dust Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bitcoin Pizza"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

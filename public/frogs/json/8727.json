@@ -1,0 +1,28 @@
+{
+  "id": "ebc474548dfd8e58092c2a930d6028886c1b20e2d155fa12d55e0a1eaf8951aai0",
+  "meta": {
+    "name": "Bitcoin Frog #8727",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Cigar"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Powerful"
+      }
+    ]
+  }
+}

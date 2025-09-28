@@ -1,0 +1,28 @@
+{
+  "id": "fca9cc6964038d888a9ec23d4490499804ec128634ea26aacc4c9f08835764c1i0",
+  "meta": {
+    "name": "Bitcoin Frog #160",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Dust Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Monocle"
+      }
+    ]
+  }
+}

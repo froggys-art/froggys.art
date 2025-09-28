@@ -1,0 +1,28 @@
+{
+  "id": "402c121dcd2b3db8ef143ba4316441411a2226d7218eaf66baa7cf13620180f6i0",
+  "meta": {
+    "name": "Bitcoin Frog #4009",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Wizard Robe"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

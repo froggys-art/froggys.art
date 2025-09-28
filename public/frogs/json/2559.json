@@ -1,0 +1,28 @@
+{
+  "id": "915217de97bfdaf093ae27b101a14055582a67c9d1aedde69676d98bb50bb8c8i0",
+  "meta": {
+    "name": "Bitcoin Frog #2559",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Blue Jacket"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

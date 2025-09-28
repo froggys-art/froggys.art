@@ -1,0 +1,28 @@
+{
+  "id": "0bbea24d5fbce2c8ede6387bd68770a535cd769f9ced2a0b17ee5a273738a9c8i0",
+  "meta": {
+    "name": "Bitcoin Frog #6432",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f71322e64780337928ad3991c17a5966e4b3e003d9fdff8fd2e785bb0f8db701i0",
+  "meta": {
+    "name": "Bitcoin Frog #2732",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Jacket"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

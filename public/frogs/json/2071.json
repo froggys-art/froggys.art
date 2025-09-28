@@ -1,0 +1,28 @@
+{
+  "id": "2f5d4b16a0f825bceee973e18480dc1917f921a3cca7d77f3a92a29f1507f0b1i0",
+  "meta": {
+    "name": "Bitcoin Frog #2071",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

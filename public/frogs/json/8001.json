@@ -1,0 +1,28 @@
+{
+  "id": "999a2a6183210c8d2dc3dc8a56c581d4cd1854ee8efed7e7be8fa8b120dd1c74i0",
+  "meta": {
+    "name": "Bitcoin Frog #8001",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Ninja"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Powerful"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "51531e5627d72e6584996d6a5cae12953db5c3ab7bbc4682f6788a5df114fdeci0",
+  "meta": {
+    "name": "Bitcoin Frog #9106",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Grey"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Yellow Hoodie"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

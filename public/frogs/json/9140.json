@@ -1,0 +1,28 @@
+{
+  "id": "c6274b769fbb4f5341979b39d545b9906bfe038d3bf7943061d509c4164a5a70i0",
+  "meta": {
+    "name": "Bitcoin Frog #9140",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Nakamoto Glasses"
+      }
+    ]
+  }
+}

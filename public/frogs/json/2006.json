@@ -1,0 +1,28 @@
+{
+  "id": "6a4be69efd244d7b27b6c4e6bea2c77369c0f95e8f64f6ac42b44c3fa3214640i0",
+  "meta": {
+    "name": "Bitcoin Frog #2006",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Wizard Robe"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

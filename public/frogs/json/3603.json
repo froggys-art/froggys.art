@@ -1,0 +1,28 @@
+{
+  "id": "8d2e3d4442ebdd7dda196dd3e01d32a2d59e0d3645b642e891433dfa6beb2a89i0",
+  "meta": {
+    "name": "Bitcoin Frog #3603",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Karate Outfit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

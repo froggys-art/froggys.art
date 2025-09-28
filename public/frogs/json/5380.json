@@ -1,0 +1,28 @@
+{
+  "id": "cd426f61b38f6a728b9eec43810e85bbfdc8188c2ccd0aef5ac43ace5cec93fai0",
+  "meta": {
+    "name": "Bitcoin Frog #5380",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Electro"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Orange Checkered"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

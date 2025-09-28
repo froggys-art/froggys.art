@@ -1,0 +1,28 @@
+{
+  "id": "f9e1afb6f07ef1dcc1a2d89ed1c7961ffe8fe5b43048d333c2e775eb1a0f029ei0",
+  "meta": {
+    "name": "Bitcoin Frog #8810",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Hitman"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Dictators Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "91a328c09cab56802b2681ed96fa5ffd09a7a7441f4eb6e4c3c114de68277e72i0",
+  "meta": {
+    "name": "Bitcoin Frog #868",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Dust Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

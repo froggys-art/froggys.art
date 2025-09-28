@@ -1,0 +1,28 @@
+{
+  "id": "a9d46eacbc1bfc1af6fdf781922678c27d46bdac8d1f373eac3df538085c3c2bi0",
+  "meta": {
+    "name": "Bitcoin Frog #2226",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Olive"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Red Overalls"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

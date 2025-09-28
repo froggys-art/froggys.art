@@ -1,0 +1,28 @@
+{
+  "id": "904ad2e5398137bfd2a12357d9b855b887a9708f1a83bbe0ecbd1c9df96586d2i0",
+  "meta": {
+    "name": "Bitcoin Frog #2345",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Bitcoin Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Orange Checkered"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

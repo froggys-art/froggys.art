@@ -1,0 +1,28 @@
+{
+  "id": "9693b0f4f6fc56eb7752ad35a37a44ef1044bf05467a4e729eb24da896ae7d7ci0",
+  "meta": {
+    "name": "Bitcoin Frog #212",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Kings Robes"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Big Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

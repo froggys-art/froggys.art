@@ -1,0 +1,28 @@
+{
+  "id": "70293386c8f78a0e1d166603256728674da2c53b51871c900c9765d1cd1e80b8i0",
+  "meta": {
+    "name": "Bitcoin Frog #3902",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark Red"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Priest"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Cigar"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

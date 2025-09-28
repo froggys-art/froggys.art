@@ -1,0 +1,28 @@
+{
+  "id": "977b6c61a8583d775dd602d37574a3f06d7fab6940efa15c4d3db093ad436cd4i0",
+  "meta": {
+    "name": "Bitcoin Frog #1990",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Fur Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Magicians Moustache"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Visor"
+      }
+    ]
+  }
+}

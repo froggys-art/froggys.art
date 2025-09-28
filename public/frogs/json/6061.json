@@ -1,0 +1,28 @@
+{
+  "id": "8c66a8aed1eb5caade33e6345b91b571f22d7deac98680ea2e13418b6d477cc8i0",
+  "meta": {
+    "name": "Bitcoin Frog #6061",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Elvis"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Pipe"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}

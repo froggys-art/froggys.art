@@ -1,0 +1,28 @@
+{
+  "id": "4a8fc9b65b65d919359a1d327febcb23b537e2e2a6da90b0216d5b775a760d4ai0",
+  "meta": {
+    "name": "Bitcoin Frog #8245",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Ninja"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Tongue Out"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Golden Sunglasses"
+      }
+    ]
+  }
+}

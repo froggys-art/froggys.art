@@ -1,0 +1,28 @@
+{
+  "id": "f02e31f5a0781d1d7b29ad3988bb1c268737af41b333aa5b4574a5737b70016di0",
+  "meta": {
+    "name": "Bitcoin Frog #1723",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Bitcoin Orange"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Prison Jumpsuit"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Dank Shades"
+      }
+    ]
+  }
+}

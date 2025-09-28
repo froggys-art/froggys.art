@@ -1,0 +1,28 @@
+{
+  "id": "41c4cb5ef42ab81b2ba72d54e830bac8367469f4a1290fe8ebea7f8d079e5f6ci0",
+  "meta": {
+    "name": "Bitcoin Frog #1687",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Blue"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Spotted"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Leather Dust Coat"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Bubblegum"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Angry"
+      }
+    ]
+  }
+}

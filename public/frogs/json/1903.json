@@ -1,0 +1,28 @@
+{
+  "id": "99de7eac2bde64e333e0a0964ee9b7d1cf47a88ab142f4477cdf78c658327c84i0",
+  "meta": {
+    "name": "Bitcoin Frog #1903",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Blue Hoodie"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "Clown Nose"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Happy"
+      }
+    ]
+  }
+}

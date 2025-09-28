@@ -1,0 +1,28 @@
+{
+  "id": "1abe78f2cb1df2dbc0c80fa36dc7347dfbf5b5c27c9b7f740c415f4224324eb1i0",
+  "meta": {
+    "name": "Bitcoin Frog #6050",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Brown"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Green"
+      },
+      {
+        "trait_type": "Clothing",
+        "value": "Blue Jacket"
+      },
+      {
+        "trait_type": "Mouth",
+        "value": "None"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Cosmic Eyes"
+      }
+    ]
+  }
+}
