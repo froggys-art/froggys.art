@@ -619,7 +619,7 @@ export default function VerifyPanel() {
               <a className="underline hover:opacity-80" href="https://x.com/joinfroggys" target="_blank" rel="noopener noreferrer">Follow @joinfroggys</a>
               <span>·</span>
               <a className="underline hover:opacity-80" href={
-                `https://x.com/intent/tweet?text=${encodeURIComponent('RIBBIT #BitcoinFrogs https://bitcoinfrogs.art')}`
+                `https://x.com/intent/tweet?text=${encodeURIComponent('RIBBIT #BitcoinFrogs https://www.bitcoinfrogs.art')}`
               } target="_blank" rel="noopener noreferrer">Tweet RIBBIT</a>
               <span>·</span>
               <button onClick={refreshTwitter} className="underline hover:opacity-80">Refresh X status</button>

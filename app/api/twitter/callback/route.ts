@@ -39,12 +39,17 @@ export async function GET(req: Request) {
       refreshToken: token.refresh_token,
       expiresAt: expiresAtMs,
     })
-    await saveTwitterTokensDB({
-      walletId: stateObj.walletId,
-      accessToken: token.access_token,
-      refreshToken: token.refresh_token,
-      expiresAt: new Date(expiresAtMs),
-    })
+    try {
+      await saveTwitterTokensDB({
+        walletId: stateObj.walletId,
+        accessToken: token.access_token,
+        refreshToken: token.refresh_token,
+        expiresAt: new Date(expiresAtMs),
+      })
+    } catch (e: any) {
+      // Non-fatal: continue with cookie + in-memory tokens
+      try { await logEventDB('twitter_tokens_db_save_failed', { error: e?.message }, stateObj.walletId) } catch {}
+    }
 
     // Ensure wallet exists
     upsertWallet(stateObj.walletId, 'unisat')
