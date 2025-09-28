@@ -34,17 +34,18 @@ export function pubkeyToAddressTaproot(pubkeyHex: string): string {
 
 export function verifyTaprootSchnorr(message: string, signatureHex: string, pubkeyHex: string): boolean {
   const msgHash = hashMessageSimple(message)
-  return secp.schnorr.verify(signatureHex, msgHash, pubkeyHex)
+  // Use schnorr from module namespace to avoid named export bundling issues
+  return (secp as any).schnorr.verify(signatureHex, msgHash, pubkeyHex)
 }
 
 export function verifySegwitEcdsa(message: string, address: string, signature: string): boolean {
   // Try base64 first (common for bitcoinjs-message), then hex
   let ok = false
   try {
-    ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'base64'), network)
+    ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'base64'), network as any)
   } catch {
     try {
-      ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'hex'), network)
+      ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'hex'), network as any)
     } catch {
       ok = false
     }
