@@ -579,8 +579,6 @@ export default function VerifyPanel() {
             {twitter && (
               <div className="mt-2 text-left text-[11px] font-press space-y-1">
                 <div>Connected X: {twitter.handle ? `@${twitter.handle}` : 'unknown'}</div>
-                <div>Followed @joinfroggys: {twitter.followedJoinFroggys ? '✓' : '—'}</div>
-                <div>RIBBIT Tweet: {twitter.ribbitTweeted ? '✓' : '—'}</div>
               </div>
             )}
             <div className="mt-2 flex items-center justify-center gap-2 text-[11px]">
