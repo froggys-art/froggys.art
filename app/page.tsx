@@ -137,15 +137,15 @@ export default function HomePage() {
       style={{ background: '#f6931a' }}
     >
       {/* Header/title/nav fixed near top */}
-      <div className="absolute inset-x-0 top-[clamp(24px,6vh,72px)] md:top-[clamp(40px,8vh,96px)] px-2 text-center z-20">
+      <div className="absolute inset-x-0 top-[clamp(12px,5vh,64px)] md:top-[clamp(40px,8vh,96px)] px-2 text-center z-20">
         <div className="flex flex-col items-center gap-[2px] md:gap-1">
           <h1
-            className="font-8bit text-white text-4xl md:text-5xl tracking-wide cursor-pointer"
+            className="font-8bit text-white text-3xl md:text-5xl tracking-wide cursor-pointer"
             onClick={() => setView('hero')}
           >
             BITCOIN FROGS
           </h1>
-          <nav className="mt-1 md:mt-2 flex items-center justify-center gap-5 font-press text-xs sm:text-sm">
+          <nav className="mt-0.5 md:mt-2 flex items-center justify-center gap-4 font-press text-xs sm:text-sm">
             <a
               href="/#about"
               onClick={(e) => { e.preventDefault(); setView('about'); }}
@@ -172,16 +172,17 @@ export default function HomePage() {
       </div>
 
       {/* Center content (fixed size, centered) */}
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl z-10" style={{ height: 'clamp(360px,60vh,800px)' }}>
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl z-10" style={{ height: 'clamp(300px,55vh,760px)' }}>
           {/* Hero (image + quote) */}
           <div className={`absolute inset-0 flex flex-col items-center justify-start transition-opacity duration-300 ${view === 'hero' ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <FrogShuffle
               folder="background-bitcoin-orange"
               intervalMs={900}
+              className="frog-hero"
               width={240}
               height={240}
             />
-            <figure className="mt-3 md:mt-4 max-w-xl mx-auto">
+            <figure className="mt-2 md:mt-4 max-w-[280px] md:max-w-xl mx-auto">
               <blockquote className="text-[11px] md:text-[12px] leading-relaxed text-black">
                 "One fine day I woke up and wanted to put 10,000 frogs on the Bitcoin blockchain at all costs."
               </blockquote>
@@ -239,13 +240,13 @@ export default function HomePage() {
         </div>
 
       {/* Footer (RIBBIT) fixed near bottom with dynamic offset */}
-      <div className="absolute inset-x-0 px-2 text-center z-20 bottom-[clamp(24px,6vh,72px)] md:bottom-[clamp(40px,8vh,96px)]">
+      <div className="absolute inset-x-0 px-2 text-center z-20 bottom-[clamp(12px,5vh,64px)] md:bottom-[clamp(40px,8vh,96px)]">
         <div className="relative">
           <a
             href="https://twitter.com/intent/tweet?in_reply_to=1969022418640396370&text=RIBBIT"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-8bit text-black text-5xl md:text-6xl leading-none inline-block hover:opacity-80"
+            className="font-8bit text-black text-4xl sm:text-5xl md:text-6xl leading-none inline-block hover:opacity-80"
           >
             RIBBIT
           </a>

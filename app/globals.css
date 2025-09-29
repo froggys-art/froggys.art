@@ -86,3 +86,11 @@ body {
 .scroll-blend::-webkit-scrollbar-thumb:hover {
   background: #000;
 }
+
+/* Mobile tuning: shrink hero frog image to avoid overlap with title/nav/footer */
+@media (max-width: 480px) {
+  .frog-hero img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
