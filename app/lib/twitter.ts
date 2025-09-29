@@ -1,16 +1,21 @@
 import { randomBytes, createHash } from 'node:crypto'
 
-export function getTwitterConfig() {
-  const clientId = process.env.TWITTER_CLIENT_ID || ''
-  const clientSecret = process.env.TWITTER_CLIENT_SECRET || ''
-  const redirectUri = process.env.TWITTER_REDIRECT_URI || ''
-  const appHandle = process.env.FROGGYS_TWITTER_HANDLE || 'joinfroggys'
-  const requiredPhrase = process.env.TWITTER_REQUIRED_TWEET_PHRASE || 'RIBBIT'
+export function getXConfig() {
+  const clientId = process.env.X_CLIENT_ID || process.env.TWITTER_CLIENT_ID || ''
+  const clientSecret = process.env.X_CLIENT_SECRET || process.env.TWITTER_CLIENT_SECRET || ''
+  const redirectUri = process.env.X_REDIRECT_URI || process.env.TWITTER_REDIRECT_URI || ''
+  const appHandle = process.env.X_APP_HANDLE || process.env.FROGGYS_TWITTER_HANDLE || 'joinfroggys'
+  const requiredPhrase = process.env.X_REQUIRED_TWEET_PHRASE || process.env.TWITTER_REQUIRED_TWEET_PHRASE || 'RIBBIT'
   if (!clientId || !redirectUri) {
-    throw new Error('Missing TWITTER_CLIENT_ID or TWITTER_REDIRECT_URI')
+    throw new Error('Missing X_CLIENT_ID or X_REDIRECT_URI')
   }
   return { clientId, clientSecret, redirectUri, appHandle, requiredPhrase }
 }
+
+// Back-compat export to avoid refactors in existing imports
+export const getTwitterConfig = getXConfig
+
+const API_BASE = (process.env.X_API_BASE || 'https://api.x.com').replace(/\/$/, '')
 
 export async function refreshAccessToken(opts: { clientId: string; refreshToken: string }) {
   const body = new URLSearchParams()
@@ -19,12 +24,12 @@ export async function refreshAccessToken(opts: { clientId: string; refreshToken:
   body.set('refresh_token', opts.refreshToken)
 
   const headers: Record<string, string> = { 'Content-Type': 'application/x-www-form-urlencoded' }
-  const secret = process.env.TWITTER_CLIENT_SECRET || ''
+  const secret = process.env.X_CLIENT_SECRET || process.env.TWITTER_CLIENT_SECRET || ''
   if (secret) {
     const basic = Buffer.from(`${opts.clientId}:${secret}`).toString('base64')
     headers.Authorization = `Basic ${basic}`
   }
-  const res = await fetch('https://api.twitter.com/2/oauth2/token', {
+  const res = await fetch(`${API_BASE}/2/oauth2/token`, {
     method: 'POST',
     headers,
     body,
@@ -52,8 +57,8 @@ export function sha256Base64Url(input: string) {
 }
 
 export function buildAuthUrl(state: string, codeChallenge: string, clientId: string, redirectUri: string) {
-  // Some environments have issues with x.com; twitter.com is canonical
-  const base = 'https://twitter.com/i/oauth2/authorize'
+  // Use x.com for user-facing authorization page
+  const base = 'https://x.com/i/oauth2/authorize'
   const params = new URLSearchParams({
     response_type: 'code',
     client_id: clientId,
@@ -80,12 +85,12 @@ export async function exchangeCodeForToken(opts: {
   body.set('code_verifier', opts.codeVerifier)
 
   const headers: Record<string, string> = { 'Content-Type': 'application/x-www-form-urlencoded' }
-  const secret = process.env.TWITTER_CLIENT_SECRET || ''
+  const secret = process.env.X_CLIENT_SECRET || process.env.X_API_SECRET || process.env.TWITTER_CLIENT_SECRET || ''
   if (secret) {
     const basic = Buffer.from(`${opts.clientId}:${secret}`).toString('base64')
     headers.Authorization = `Basic ${basic}`
   }
-  const res = await fetch('https://api.twitter.com/2/oauth2/token', {
+  const res = await fetch(`${API_BASE}/2/oauth2/token`, {
     method: 'POST',
     headers,
     body,
@@ -104,7 +109,7 @@ export async function exchangeCodeForToken(opts: {
 }
 
 export async function getCurrentUser(accessToken: string) {
-  const res = await fetch('https://api.twitter.com/2/users/me?user.fields=username,name', {
+  const res = await fetch(`${API_BASE}/2/users/me?user.fields=username,name`, {
     headers: { Authorization: `Bearer ${accessToken}` },
   })
   if (!res.ok) {
@@ -116,7 +121,7 @@ export async function getCurrentUser(accessToken: string) {
 }
 
 export async function getUserByUsername(accessToken: string, username: string) {
-  const res = await fetch(`https://api.twitter.com/2/users/by/username/${encodeURIComponent(username)}?user.fields=username`, {
+  const res = await fetch(`${API_BASE}/2/users/by/username/${encodeURIComponent(username)}?user.fields=username`, {
     headers: { Authorization: `Bearer ${accessToken}` },
   })
   if (!res.ok) throw new Error('get_user_by_username_failed')
@@ -127,7 +132,7 @@ export async function isFollowing(accessToken: string, sourceUserId: string, tar
   // Paginate following list up to maxPages
   let nextToken: string | undefined = undefined
   for (let page = 0; page < maxPages; page++) {
-    const url = new URL(`https://api.twitter.com/2/users/${sourceUserId}/following`)
+    const url = new URL(`${API_BASE}/2/users/${sourceUserId}/following`)
     url.searchParams.set('max_results', '1000')
     url.searchParams.set('user.fields', 'username')
     if (nextToken) url.searchParams.set('pagination_token', nextToken)
@@ -145,7 +150,7 @@ export async function findRecentTweetContaining(accessToken: string, userId: str
   let nextToken: string | undefined = undefined
   const t = term.toLowerCase()
   for (let page = 0; page < maxPages; page++) {
-    const url = new URL(`https://api.twitter.com/2/users/${userId}/tweets`)
+    const url = new URL(`${API_BASE}/2/users/${userId}/tweets`)
     url.searchParams.set('max_results', '100')
     url.searchParams.set('tweet.fields', 'created_at')
     if (nextToken) url.searchParams.set('pagination_token', nextToken)

@@ -84,7 +84,7 @@ export default function VerifyPanel() {
   const fetchTwitterStatus = useCallback(async (addr: string) => {
     try {
       setStatus('Checking X status…')
-      const res = await fetch(`/api/twitter/status?address=${encodeURIComponent(addr)}`, { credentials: 'include' as RequestCredentials })
+      const res = await fetch(`/api/x/status?address=${encodeURIComponent(addr)}`, { credentials: 'include' as RequestCredentials })
       const j = await res.json()
       if (res.ok && j?.connected) {
         setTwitter({
@@ -105,10 +105,10 @@ export default function VerifyPanel() {
     // After redirect back from X
     try {
       const url = new URL(window.location.href)
-      const ok = url.searchParams.get('twitter')
+      const ok = url.searchParams.get('x')
       if (ok === 'ok' && address) {
         fetchTwitterStatus(address)
-        url.searchParams.delete('twitter')
+        url.searchParams.delete('x')
         window.history.replaceState({}, '', url.pathname + (url.search ? `?${url.searchParams.toString()}` : '') + url.hash)
       }
     } catch {}
@@ -277,13 +277,13 @@ export default function VerifyPanel() {
     try { localStorage.removeItem('bf_wallet_address'); localStorage.removeItem('bf_wallet_provider') } catch {}
   }, [provider])
 
-  const startTwitter = useCallback(() => {
+  const startX = useCallback(() => {
     if (!address) {
       setError('Connect your wallet first to link X')
       return
     }
     setStatus('Redirecting to X…')
-    window.location.href = `/api/twitter/start?address=${encodeURIComponent(address)}`
+    window.location.href = `/api/x/start?address=${encodeURIComponent(address)}`
   }, [address])
 
   const connectOKX = useCallback(async () => {
@@ -573,7 +573,7 @@ export default function VerifyPanel() {
           ) : null}
 
           <div className="pt-2">
-            <button onClick={startTwitter} disabled={!address || loading} className="w-full py-2.5 rounded border border-black/30 bg-black/5 hover:bg-black/10 transition">
+            <button onClick={startX} disabled={!address || loading} className="w-full py-2.5 rounded border border-black/30 bg-black/5 hover:bg-black/10 transition">
               {address ? 'Verify X' : 'Connect wallet to verify X'}
             </button>
             {twitter && (
@@ -600,7 +600,7 @@ export default function VerifyPanel() {
           <div className="mt-2">
             <button
               onClick={() => {
-                if (error && error.startsWith('X not connected')) return startTwitter()
+                if (error && error.startsWith('X not connected')) return startX()
                 if (provider === 'xverse') return connectXverse()
                 if (provider === 'okx') return connectOKX()
                 return connectUniSat()
