@@ -18,9 +18,15 @@ export async function refreshAccessToken(opts: { clientId: string; refreshToken:
   body.set('grant_type', 'refresh_token')
   body.set('refresh_token', opts.refreshToken)
 
+  const headers: Record<string, string> = { 'Content-Type': 'application/x-www-form-urlencoded' }
+  const secret = process.env.TWITTER_CLIENT_SECRET || ''
+  if (secret) {
+    const basic = Buffer.from(`${opts.clientId}:${secret}`).toString('base64')
+    headers.Authorization = `Basic ${basic}`
+  }
   const res = await fetch('https://api.twitter.com/2/oauth2/token', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    headers,
     body,
   })
   if (!res.ok) {
@@ -46,7 +52,8 @@ export function sha256Base64Url(input: string) {
 }
 
 export function buildAuthUrl(state: string, codeChallenge: string, clientId: string, redirectUri: string) {
-  const base = 'https://x.com/i/oauth2/authorize'
+  // Some environments have issues with x.com; twitter.com is canonical
+  const base = 'https://twitter.com/i/oauth2/authorize'
   const params = new URLSearchParams({
     response_type: 'code',
     client_id: clientId,
@@ -72,9 +79,15 @@ export async function exchangeCodeForToken(opts: {
   body.set('redirect_uri', opts.redirectUri)
   body.set('code_verifier', opts.codeVerifier)
 
+  const headers: Record<string, string> = { 'Content-Type': 'application/x-www-form-urlencoded' }
+  const secret = process.env.TWITTER_CLIENT_SECRET || ''
+  if (secret) {
+    const basic = Buffer.from(`${opts.clientId}:${secret}`).toString('base64')
+    headers.Authorization = `Basic ${basic}`
+  }
   const res = await fetch('https://api.twitter.com/2/oauth2/token', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    headers,
     body,
   })
   if (!res.ok) {
@@ -94,7 +107,11 @@ export async function getCurrentUser(accessToken: string) {
   const res = await fetch('https://api.twitter.com/2/users/me?user.fields=username,name', {
     headers: { Authorization: `Bearer ${accessToken}` },
   })
-  if (!res.ok) throw new Error('get_current_user_failed')
+  if (!res.ok) {
+    let body: string
+    try { body = await res.text() } catch { body = '' }
+    throw new Error(`get_current_user_failed: ${res.status} ${body}`)
+  }
   return (await res.json()) as { data: { id: string; username: string; name: string } }
 }
 

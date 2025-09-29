@@ -28,9 +28,16 @@ export async function GET(req: Request) {
     const { clientId, redirectUri, appHandle, requiredPhrase } = getTwitterConfig()
     const token = await exchangeCodeForToken({ clientId, code, codeVerifier: stateObj.codeVerifier, redirectUri })
 
-    const me = await getCurrentUser(token.access_token)
-    const userId = me.data.id
-    const handle = me.data.username
+    let userId: string | undefined
+    let handle: string | undefined
+    try {
+      const me = await getCurrentUser(token.access_token)
+      userId = me.data.id
+      handle = me.data.username
+    } catch (e: any) {
+      // Log and continue; we'll still set tokens and redirect, allowing /recheck to try later
+      try { await logEventDB('twitter_callback_me_failed', { error: e?.message }, stateObj.walletId) } catch {}
+    }
 
     // Save tokens for recheck (in-memory only)
     const expiresAtMs = Date.now() + (Number(token.expires_in || 0) * 1000)
@@ -55,25 +62,29 @@ export async function GET(req: Request) {
     upsertWallet(stateObj.walletId, 'unisat')
     await upsertWalletDB(stateObj.walletId, 'unisat')
 
-    // Check follow and tweet
-    let followed = false
-    let tweetId: string | null = null
-    try {
-      const target = await getUserByUsername(token.access_token, appHandle)
-      followed = await isFollowing(token.access_token, userId, target.data.id)
-    } catch {}
-    try {
-      tweetId = await findRecentTweetContaining(token.access_token, userId, requiredPhrase)
-    } catch {}
+    // Check follow and tweet only if we have user context
+    if (userId && handle) {
+      let followed = false
+      let tweetId: string | null = null
+      try {
+        const target = await getUserByUsername(token.access_token, appHandle)
+        followed = await isFollowing(token.access_token, userId, target.data.id)
+      } catch {}
+      try {
+        tweetId = await findRecentTweetContaining(token.access_token, userId, requiredPhrase)
+      } catch {}
 
-    const points = (followed ? 10 : 0) + (tweetId ? 10 : 0)
+      const points = (followed ? 10 : 0) + (tweetId ? 10 : 0)
 
-    // Persist
-    upsertTwitterVerificationMem({ walletId: stateObj.walletId, twitterUserId: userId, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId || undefined, points, verifiedAt: Date.now() })
-    await addTwitterVerificationDB({ walletId: stateObj.walletId, twitterUserId: userId, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId || undefined, points, verifiedAt: new Date() })
+      // Persist
+      upsertTwitterVerificationMem({ walletId: stateObj.walletId, twitterUserId: userId, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId || undefined, points, verifiedAt: Date.now() })
+      try {
+        await addTwitterVerificationDB({ walletId: stateObj.walletId, twitterUserId: userId, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId || undefined, points, verifiedAt: new Date() })
+      } catch {}
 
-    logEvent('twitter_callback', { walletId: stateObj.walletId, handle, followed, tweetId })
-    await logEventDB('twitter_callback', { walletId: stateObj.walletId, handle, followed, tweetId }, stateObj.walletId)
+      logEvent('twitter_callback', { walletId: stateObj.walletId, handle, followed, tweetId })
+      try { await logEventDB('twitter_callback', { walletId: stateObj.walletId, handle, followed, tweetId }, stateObj.walletId) } catch {}
+    }
 
     // Redirect back to home with a flag, set token cookie for fallback, clear xoauth cookie
     const res = NextResponse.redirect(new URL(`/?twitter=ok&address=${encodeURIComponent(stateObj.walletId)}`, req.url))
