@@ -83,7 +83,7 @@ export default function VerifyPanel() {
 
   const fetchTwitterStatus = useCallback(async (addr: string) => {
     try {
-      setStatus('Checking Twitter status…')
+      setStatus('Checking X status…')
       const res = await fetch(`/api/twitter/status?address=${encodeURIComponent(addr)}`, { credentials: 'include' as RequestCredentials })
       const j = await res.json()
       if (res.ok && j?.connected) {
@@ -96,13 +96,12 @@ export default function VerifyPanel() {
           verifiedAt: j.verifiedAt || null,
         })
       }
-    } finally {
-      setStatus((s) => (s === 'Checking Twitter status…' ? null : s))
+      setStatus((s) => (s === 'Checking X status…' ? null : s))
     }
   }, [])
 
   useEffect(() => {
-    // After redirect back from Twitter
+    // After redirect back from X
     try {
       const url = new URL(window.location.href)
       const ok = url.searchParams.get('twitter')
@@ -279,57 +278,12 @@ export default function VerifyPanel() {
 
   const startTwitter = useCallback(() => {
     if (!address) {
-      setError('Connect your wallet first to link Twitter')
+      setError('Connect your wallet first to link X')
       return
     }
-    setStatus('Redirecting to X (Twitter)…')
+    setStatus('Redirecting to X…')
     window.location.href = `/api/twitter/start?address=${encodeURIComponent(address)}`
   }, [address])
-
-  const refreshTwitter = useCallback(() => {
-    (async () => {
-      if (!address) {
-        setError('Connect your wallet first')
-        return
-      }
-      try {
-        setStatus('Rechecking X status…')
-        const res = await fetch('/api/twitter/recheck', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ address }),
-          credentials: 'include' as RequestCredentials,
-        })
-        if (res.status === 400) {
-          const j = await res.json()
-          if (j?.error === 'not_connected') {
-            setError('X not connected (token expired). Click "Verify X / Twitter" to reconnect, then try Refresh again.')
-            return
-          }
-        }
-        // Update UI immediately from recheck response body, then refresh status for persistence
-        try {
-          const j = await res.json()
-          if (j?.ok) {
-            setTwitter({
-              handle: j.handle || undefined,
-              followedJoinFroggys: !!j.followedJoinFroggys,
-              ribbitTweeted: !!j.ribbitTweeted,
-              ribbitTweetId: j.ribbitTweetId || null,
-              points: Number(j.points || 0),
-              verifiedAt: Date.now(),
-            })
-          }
-        } catch {}
-        // Then re-pull status to pick up DB persistence if available
-        await fetchTwitterStatus(address)
-      } catch (e: any) {
-        setError(e?.message || 'Failed to refresh X status')
-      } finally {
-        setStatus((s) => (s === 'Rechecking X status…' ? null : s))
-      }
-    })()
-  }, [address, fetchTwitterStatus])
 
   const connectOKX = useCallback(async () => {
     setError(null)
@@ -619,14 +573,13 @@ export default function VerifyPanel() {
 
           <div className="pt-2">
             <button onClick={startTwitter} disabled={!address || loading} className="w-full py-2.5 rounded border border-black/30 bg-black/5 hover:bg-black/10 transition">
-              {address ? 'Verify X / Twitter' : 'Connect wallet to verify X'}
+              {address ? 'Verify X' : 'Connect wallet to verify X'}
             </button>
             {twitter && (
               <div className="mt-2 text-left text-[11px] font-press space-y-1">
                 <div>Connected X: {twitter.handle ? `@${twitter.handle}` : 'unknown'}</div>
                 <div>Followed @joinfroggys: {twitter.followedJoinFroggys ? '✓' : '—'}</div>
                 <div>RIBBIT Tweet: {twitter.ribbitTweeted ? '✓' : '—'}</div>
-                <div>Points: {twitter.points}</div>
               </div>
             )}
             <div className="mt-2 flex items-center justify-center gap-2 text-[11px]">
@@ -635,8 +588,6 @@ export default function VerifyPanel() {
               <a className="underline hover:opacity-80" href={
                 `https://x.com/intent/tweet?text=${encodeURIComponent('RIBBIT #BitcoinFrogs https://www.bitcoinfrogs.art')}`
               } target="_blank" rel="noopener noreferrer">Tweet RIBBIT</a>
-              <span>·</span>
-              <button onClick={refreshTwitter} className="underline hover:opacity-80">Refresh X status</button>
             </div>
           </div>
         </div>

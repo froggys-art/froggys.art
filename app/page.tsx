@@ -243,7 +243,7 @@ export default function HomePage() {
       <div className="absolute inset-x-0 px-2 text-center z-20 bottom-[clamp(12px,5vh,64px)] md:bottom-[clamp(40px,8vh,96px)]">
         <div className="relative">
           <a
-            href="https://twitter.com/intent/tweet?in_reply_to=1969022418640396370&text=RIBBIT"
+            href="https://x.com/intent/tweet?in_reply_to=1969022418640396370&text=RIBBIT"
             target="_blank"
             rel="noopener noreferrer"
             className="font-8bit text-black text-4xl sm:text-5xl md:text-6xl leading-none inline-block hover:opacity-80"
