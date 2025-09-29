@@ -182,11 +182,11 @@ export default function HomePage() {
               width={240}
               height={240}
             />
-            <figure className="mt-2 md:mt-4 max-w-[280px] md:max-w-xl mx-auto">
-              <blockquote className="text-[11px] md:text-[12px] leading-relaxed text-black">
+            <figure className="mt-1 md:mt-4 max-w-[240px] md:max-w-xl mx-auto">
+              <blockquote className="text-[10px] md:text-[12px] leading-tight text-black">
                 "One fine day I woke up and wanted to put 10,000 frogs on the Bitcoin blockchain at all costs."
               </blockquote>
-              <figcaption className="mt-0.5 text-[11px] md:text-[12px] text-black/90">— Frogtoshi Nakamoto</figcaption>
+              <figcaption className="mt-0.5 text-[10px] md:text-[12px] text-black/90">— Frogtoshi Nakamoto</figcaption>
             </figure>
           </div>
           {/* About (scrollable) */}
