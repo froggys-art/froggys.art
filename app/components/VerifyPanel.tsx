@@ -307,7 +307,21 @@ export default function VerifyPanel() {
             return
           }
         }
-        // Ignore body; re-pull status from our status endpoint
+        // Update UI immediately from recheck response body, then refresh status for persistence
+        try {
+          const j = await res.json()
+          if (j?.ok) {
+            setTwitter({
+              handle: j.handle || undefined,
+              followedJoinFroggys: !!j.followedJoinFroggys,
+              ribbitTweeted: !!j.ribbitTweeted,
+              ribbitTweetId: j.ribbitTweetId || null,
+              points: Number(j.points || 0),
+              verifiedAt: Date.now(),
+            })
+          }
+        } catch {}
+        // Then re-pull status to pick up DB persistence if available
         await fetchTwitterStatus(address)
       } catch (e: any) {
         setError(e?.message || 'Failed to refresh X status')

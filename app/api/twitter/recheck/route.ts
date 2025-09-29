@@ -81,21 +81,31 @@ export async function POST(req: Request) {
 
     let followed = false
     let tweetId: string | null = null
+    let followErr: string | null = null
+    let tweetErr: string | null = null
     try {
       const target = await getUserByUsername(tokens.accessToken, appHandle)
       followed = await isFollowing(tokens.accessToken, userId, target.data.id)
-    } catch {}
+    } catch (e: any) {
+      followErr = e?.message || 'follow_check_failed'
+    }
     try {
       tweetId = await findRecentTweetContaining(tokens.accessToken, userId, requiredPhrase)
-    } catch {}
+    } catch (e: any) {
+      tweetErr = e?.message || 'tweet_check_failed'
+    }
 
     const points = (followed ? 10 : 0) + (tweetId ? 10 : 0)
 
-    // Persist a new record
+    // Persist a new record (non-fatal if DB fails)
     upsertTwitterVerificationMem({ walletId: address, twitterUserId: userId, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId || undefined, points, verifiedAt: Date.now() })
-    await addTwitterVerificationDB({ walletId: address, twitterUserId: userId, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId || undefined, points, verifiedAt: new Date() })
+    try {
+      await addTwitterVerificationDB({ walletId: address, twitterUserId: userId, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId || undefined, points, verifiedAt: new Date() })
+    } catch (e: any) {
+      // swallow; client will still get immediate status from response body
+    }
 
-    return NextResponse.json({ ok: true, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId, points })
+    return NextResponse.json({ ok: true, handle, followedJoinFroggys: followed, ribbitTweeted: !!tweetId, ribbitTweetId: tweetId, points, debug: { followErr, tweetErr } })
   } catch (e: any) {
     return NextResponse.json({ error: e?.message || 'failed' }, { status: 500 })
   }
