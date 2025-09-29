@@ -1,5 +1,6 @@
-import * as secp from '@noble/secp256k1'
+import { secp256k1 } from '@noble/curves/secp256k1'
 import { sha256 } from '@noble/hashes/sha256'
+import { hexToBytes } from '@noble/hashes/utils'
 import * as bitcoin from 'bitcoinjs-lib'
 import * as bitcoinMessage from 'bitcoinjs-message'
 import { BITCOIN_NETWORK } from '@/lib/env'
@@ -34,17 +35,25 @@ export function pubkeyToAddressTaproot(pubkeyHex: string): string {
 
 export function verifyTaprootSchnorr(message: string, signatureHex: string, pubkeyHex: string): boolean {
   const msgHash = hashMessageSimple(message)
-  return secp.schnorr.verify(signatureHex, msgHash, pubkeyHex)
+  let pub = hexToBytes(pubkeyHex)
+  if (pub.length === 33) pub = pub.subarray(1)
+  if (pub.length !== 32) return false
+  const sig = hexToBytes(signatureHex)
+  try {
+    return secp256k1.schnorr.verify(sig, msgHash, pub)
+  } catch {
+    return false
+  }
 }
 
 export function verifySegwitEcdsa(message: string, address: string, signature: string): boolean {
   // Try base64 first (common for bitcoinjs-message), then hex
   let ok = false
   try {
-    ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'base64'), network)
+    ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'base64'), network as any)
   } catch {
     try {
-      ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'hex'), network)
+      ok = bitcoinMessage.verify(message, address, Buffer.from(signature, 'hex'), network as any)
     } catch {
       ok = false
     }
