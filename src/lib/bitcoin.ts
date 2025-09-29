@@ -1,4 +1,4 @@
-import { secp256k1 } from '@noble/curves/secp256k1'
+import { schnorr } from '@noble/curves/secp256k1'
 import { sha256 } from '@noble/hashes/sha256'
 import { hexToBytes } from '@noble/hashes/utils'
 import * as bitcoin from 'bitcoinjs-lib'
@@ -40,7 +40,7 @@ export function verifyTaprootSchnorr(message: string, signatureHex: string, pubk
   if (pub.length !== 32) return false
   const sig = hexToBytes(signatureHex)
   try {
-    return secp256k1.schnorr.verify(sig, msgHash, pub)
+    return schnorr.verify(sig, msgHash, pub)
   } catch {
     return false
   }
