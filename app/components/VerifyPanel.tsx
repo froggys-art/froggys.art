@@ -96,6 +96,7 @@ export default function VerifyPanel() {
           verifiedAt: j.verifiedAt || null,
         })
       }
+    } finally {
       setStatus((s) => (s === 'Checking X status…' ? null : s))
     }
   }, [])
