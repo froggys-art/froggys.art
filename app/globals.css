@@ -20,10 +20,11 @@
 }
 
 :root {
-  --bg: #0b0f12;
-  --fg: #e6f0ff;
+  --bg: #daff8c;
+  --fg: #000000;
   --muted: #9fb0c0;
   --accent: #32dba6;
+  --muted-bg: #cfe980;
 }
 
 html, body {
@@ -66,17 +67,26 @@ body {
   @apply rounded-xl border border-slate-800 bg-slate-900/40 p-4 shadow;
 }
 
-/* Custom scrollbar for in-panel scrolling that blends with orange theme */
+/* Leaderboard styles */
+.leaderboard .rank,
+.leaderboard .points {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.leaderboard .me {
+  background: var(--muted-bg);
+}
+
+/* Custom scrollbar for in-panel scrolling that matches app theme */
 .scroll-blend {
   scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #111 #f6a23e; /* thumb, track */
+  scrollbar-color: #111 var(--bg); /* thumb, track */
   scrollbar-gutter: stable both-edges;
 }
 .scroll-blend::-webkit-scrollbar {
   width: 10px;
 }
 .scroll-blend::-webkit-scrollbar-track {
-  background: #f6a23e; /* slightly lighter than #f6931a */
+  background: var(--bg);
 }
 .scroll-blend::-webkit-scrollbar-thumb {
   background: #111;

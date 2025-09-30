@@ -21,7 +21,7 @@ export default function ImageModal({ open, item, onClose }: Props) {
     <div className="fixed inset-0 z-[100]" role="dialog" aria-modal="true">
       <div className="absolute inset-0 bg-black/60" onClick={onClose} />
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="bg-[#f6a23e] text-black border border-black/30 shadow-2xl max-w-5xl w-[90%] max-h-[85vh] rounded p-3 grid md:grid-cols-[minmax(0,1fr)_260px] gap-3">
+        <div className="text-black border border-black/30 shadow-2xl max-w-5xl w-[90%] max-h-[85vh] rounded p-3 grid md:grid-cols-[minmax(0,1fr)_260px] gap-3" style={{ background: 'var(--bg)' }}>
           <div className="flex flex-col items-center">
             <div className="w-full flex items-center justify-between mb-2">
               <div className="font-8bit text-lg truncate">

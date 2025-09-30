@@ -11,7 +11,7 @@ function sanitizeFolder(input: string | null): string | null {
 export async function GET(req: Request) {
   try {
     const { searchParams } = new URL(req.url)
-    const folderParam = sanitizeFolder(searchParams.get('folder')) || 'background-bitcoin-orange'
+    const folderParam = sanitizeFolder(searchParams.get('folder')) || 'background-olive'
 
     const publicDir = path.join(process.cwd(), 'public')
     const folderPath = path.join(publicDir, 'frogs', folderParam)

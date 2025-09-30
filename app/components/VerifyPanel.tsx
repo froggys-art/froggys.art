@@ -616,7 +616,7 @@ export default function VerifyPanel() {
         <div className="fixed inset-0 z-[120]">
           <div className="absolute inset-0 bg-black/60" onClick={() => setInstallOpen(false)} />
           <div className="absolute inset-0 flex items-center justify-center p-4">
-            <div className="bg-[#f6a23e] text-black border border-black/30 shadow-2xl rounded p-4 w-full max-w-sm">
+            <div className="text-black border border-black/30 shadow-2xl rounded p-4 w-full max-w-sm" style={{ background: 'var(--bg)' }}>
               <div className="flex items-center justify-between mb-2">
                 <div className="font-8bit text-base">UniSat Extension Missing</div>
                 <button onClick={() => setInstallOpen(false)} className="font-press text-[10px] hover:opacity-80">✕</button>
@@ -643,7 +643,7 @@ export default function VerifyPanel() {
         <div className="fixed inset-0 z-[120]">
           <div className="absolute inset-0 bg-black/60" onClick={() => setInstallOKXOpen(false)} />
           <div className="absolute inset-0 flex items-center justify-center p-4">
-            <div className="bg-[#f6a23e] text-black border border-black/30 shadow-2xl rounded p-4 w-full max-w-sm">
+            <div className="text-black border border-black/30 shadow-2xl rounded p-4 w-full max-w-sm" style={{ background: 'var(--bg)' }}>
               <div className="flex items-center justify-between mb-2">
                 <div className="font-8bit text-base">OKX Wallet Missing</div>
                 <button onClick={() => setInstallOKXOpen(false)} className="font-press text-[10px] hover:opacity-80">✕</button>
@@ -670,7 +670,7 @@ export default function VerifyPanel() {
         <div className="fixed inset-0 z-[120]">
           <div className="absolute inset-0 bg-black/60" onClick={() => setInstallXverseOpen(false)} />
           <div className="absolute inset-0 flex items-center justify-center p-4">
-            <div className="bg-[#f6a23e] text-black border border-black/30 shadow-2xl rounded p-4 w-full max-w-sm">
+            <div className="text-black border border-black/30 shadow-2xl rounded p-4 w-full max-w-sm" style={{ background: 'var(--bg)' }}>
               <div className="flex items-center justify-between mb-2">
                 <div className="font-8bit text-base">Xverse Wallet Missing</div>
                 <button onClick={() => setInstallXverseOpen(false)} className="font-press text-[10px] hover:opacity-80">✕</button>

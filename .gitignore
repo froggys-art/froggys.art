@@ -31,3 +31,5 @@ pnpm-debug.log*
  
 # Local data (SQLite)
 /data
+.vercel/
+.vercel.json

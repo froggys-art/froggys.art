@@ -20,8 +20,8 @@ export default function FilterDrawer({ open, traits, selected, onToggle, onClear
   if (!open) return null
   return (
     <aside
-      className={`${position} top-0 left-0 h-full w-56 bg-[#f6a23e]/90 text-black border-r border-black/20 shadow z-20`}
-      style={style}
+      className={`${position} top-0 left-0 h-full w-56 text-black border-r border-black/20 shadow z-20`}
+      style={{ ...(style || {}), background: 'var(--bg)' }}
       aria-hidden={!open}
     >
       <div className="flex items-center justify-between px-3 py-2 border-b border-black/20">
